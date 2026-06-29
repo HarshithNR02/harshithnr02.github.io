@@ -340,7 +340,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.08);padding
         <span class="proj-tag live">&#9679; Live on HF Spaces</span>
         <h3 class="proj-name">Walmart M5 Demand Forecasting</h3>
         <p class="proj-desc">Global LightGBM Tweedie model across 30,490 item-store series. LangChain + GPT-4o-mini NL interface — query 30K+ series in plain English.</p>
-        <div class="proj-metric"><span class="proj-metric-val">WRMSSE 0.4681</span> <span class="proj-metric-lbl">· 34% vs AutoARIMA · 7 baselines beaten</span></div>
+        <div class="proj-metric"><span class="proj-metric-val">WRMSSE 0.4656</span> <span class="proj-metric-lbl">· 35% vs AutoARIMA · 7 baselines beaten</span></div>
         <div class="proj-tech"><span class="tech-pill">LightGBM</span><span class="tech-pill">LangChain</span><span class="tech-pill">PostgreSQL</span><span class="tech-pill">GPT-4o-mini</span><span class="tech-pill">Streamlit</span></div>
         <div class="findings">
           <div class="findings-label">&#128247; Key Findings — click to expand</div>
@@ -382,7 +382,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.08);padding
     <div class="skill-group"><div class="skill-group-label">Languages &amp; Core</div><div class="skill-list"><span class="skill-item">Python</span><span class="skill-item">SQL</span><span class="skill-item">Pandas</span><span class="skill-item">NumPy</span><span class="skill-item">Scikit-Learn</span><span class="skill-item">Statsmodels</span><span class="skill-item">Unix/Linux</span><span class="skill-item">Git</span></div></div>
     <div class="skill-group"><div class="skill-group-label">Machine Learning</div><div class="skill-list"><span class="skill-item">LightGBM</span><span class="skill-item">XGBoost</span><span class="skill-item">Isolation Forest</span><span class="skill-item">K-Means</span><span class="skill-item">SHAP</span><span class="skill-item">Optuna</span></div></div>
     <div class="skill-group"><div class="skill-group-label">Experimentation</div><div class="skill-list"><span class="skill-item">A/B Testing</span><span class="skill-item">Hypothesis Testing</span><span class="skill-item">Power Analysis</span><span class="skill-item">Two-Proportion Z-Test</span></div></div>
-    <div class="skill-group"><div class="skill-group-label">Data &amp; MLOps</div><div class="skill-list"><span class="skill-item">PostgreSQL</span><span class="skill-item">DuckDB</span><span class="skill-item">BigQuery</span><span class="skill-item">Kafka</span><span class="skill-item">Docker</span><span class="skill-item">MLflow</span><span class="skill-item">FastAPI</span><span class="skill-item">Evidently</span><span class="skill-item">GitHub Actions</span><span class="skill-item">Parquet</span></div></div>
+    <div class="skill-group"><div class="skill-group-label">Data &amp; MLOps</div><div class="skill-list"><span class="skill-item">PostgreSQL</span><span class="skill-item">DuckDB</span><span class="skill-item">Kafka</span><span class="skill-item">Docker</span><span class="skill-item">MLflow</span><span class="skill-item">FastAPI</span><span class="skill-item">Evidently</span><span class="skill-item">GitHub Actions</span><span class="skill-item">Parquet</span></div></div>
     <div class="skill-group"><div class="skill-group-label">Cloud</div><div class="skill-list"><span class="skill-item">AWS EC2</span><span class="skill-item">AWS S3</span><span class="skill-item">IAM</span><span class="skill-item">Azure Blob Storage</span><span class="skill-item">Hugging Face Spaces</span></div></div>
     <div class="skill-group"><div class="skill-group-label">GenAI &amp; Visualization</div><div class="skill-list"><span class="skill-item">LangChain</span><span class="skill-item">OpenAI API</span><span class="skill-item">FAISS</span><span class="skill-item">RAG</span><span class="skill-item">Text-to-SQL</span><span class="skill-item">ReAct Agents</span><span class="skill-item">Streamlit</span><span class="skill-item">Plotly</span></div></div>
   </div>
@@ -399,9 +399,9 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.08);padding
       <span class="exp-date">Feb 2026 – May 2026 · Dartmouth, MA</span>
     </div>
     <ul class="exp-bullets">
-      <li>Applied Isolation Forest and SHAP to 48K+ enrollment records; financial-aid delay surfaced as the dominant dropout signal, driving 14 department leads to replace ad-hoc check-ins with a unified, data-targeted outreach program.</li>
-      <li>Designed an A/B test (personalized outreach vs. generic notifications) on at-risk students; pre-specified power analysis in statsmodels, measured effect sizes via two-proportion z-test with 95% CIs, visualized in a Streamlit + Plotly dashboard for non-technical leads.</li>
-      <li>Built a Python + Parquet pipeline consolidating 3,400+ Qualtrics responses from 52 courses into a DuckDB-queryable dataset; Evidently monitored for drift and a Streamlit dashboard gave department leads self-serve visibility into course cohorts.</li>
+      <li>Applied XGBoost and LightGBM to 1.5M+ bike-sharing trip logs merged with Census and weather feeds, tuning via Optuna to achieve 89.4% F1 on demand-spike classification; Isolation Forest flagged 4,000+ dock station anomalies across the network.</li>
+      <li>Designed a two-proportion z-test and power analysis across 12,000+ trip sessions to evaluate a dynamic rebalancing algorithm, delivering a statistically validated framework showing significant improvement in peak-hour rental success vs the static baseline.</li>
+      <li>Consolidated 3 open-source schemas into a DuckDB + Parquet pipeline cutting query execution by 65%; tracked 40+ training runs via MLflow with Evidently drift monitoring and delivered a Streamlit dashboard for professor review, containerized with Docker and GitHub Actions CI.</li>
     </ul>
   </div>
 </div>
@@ -437,7 +437,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.08);padding
 <script>
 
 // Typewriter
-const phrases = ["AUC 0.9481 on 970K-user churn model","18.2M flights modeled for delay prediction","66K anomalies → 30-courier watchlist","WRMSSE 0.4681 across 30,490 series"];
+const phrases = ["AUC 0.9481 on 970K-user churn model","18.2M flights modeled for delay prediction","66K anomalies → 30-courier watchlist","WRMSSE 0.4656 across 30,490 series"];
 let pi=0,ci=0,del=false;
 const tw=document.getElementById("typewriter");
 function type(){
